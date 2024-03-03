@@ -1,5 +1,8 @@
 nav{
+    overflow: hidden;
     background-color: cadetblue;
+    top: 0%;
+    width: 100%;
 }
 
 nav ol a{
@@ -9,9 +12,20 @@ nav ol a{
     padding: 16px;
     border: 1px solid rgb(227, 243, 9);
     font-family: sans-serif;
+    text-decoration: none; /* Cambia el tecto para que no parezca link*/
 }
+nav a:hover {
+    background: #020202;  /* Cambia la barra de navegacion cuando el mouse pasa por encima*/
+    color: rgb(255, 255, 255);
+  }
+
 nav ol {
     display: flex;
     padding: 0;
     background-color: cornsilk;
 }
+
+/* main{
+    margin-top: 30px;  Add a top margin to avoid content overlay 
+  }
+*/
